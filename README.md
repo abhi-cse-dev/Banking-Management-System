@@ -50,28 +50,9 @@ CREATE TABLE transactions (
   date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (account_id) REFERENCES accounts(account_id)
 );
-🚀 How to Run
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-Set up the MySQL Database:
 
-Create a new database.
 
-Run the provided SQL script to create tables.
-
-Update the database connection details (URL, username, password) in the project.
-
-Compile and Run the Project:
-
-bash
-Copy
-Edit
-javac Main.java
-java Main
 🧠 Concepts Covered
 JDBC Connection Handling
 
